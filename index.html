@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+    <title>Astrochemistry Discussions 2021</title>
+    <link rel="shortcut icon" href="./favicon.ico"/>
+    <link rel="stylesheet" href="./dist/reveal.css" />
+    <link rel="stylesheet" href="_assets/css/nyt.css" id="theme" />
+    <link rel="stylesheet" href="_assets/css/highlight/solarized-light.css" />
+
+  </head>
+  <body>
+    <div class="reveal">
+      <div class="slides"><section  data-markdown><script type="text/template">
+<!-- .slide: data-background-video="figures/RingSpace-lowres.mp4" data-background-video-loop="loop" -->
+
+<div style="display:grid; grid-template-columns: 1fr 1fr; filter: invert(100%);">
+    <div>
+        <p style="font-variant: small-caps; font-size: 42pt">Finding Unknown Unknowns</p>
+        <p style="text-align: center;"><i>with</i></p>
+        <p style="font-variant: small-caps; font-size: 42pt">Broadband Rotational Spectroscopy</p>
+    </div>
+    <!-- <div>
+        <figure><img src="figures/benzene.png" alt="" style="width: 50%"></figure>
+    </div> -->
+</div>
+
+<div style="display: grid; grid-template-columns: 0.5fr 1fr 1fr; width: 70%; padding-top: 200px">
+    <p style="filter: invert(100%);">Kelvin Lee</p>
+    <figure><img src="figures/mit-logo.png"></figure>
+    <figure>
+        <img src="figures/cfa-logo-transparent.png" style="filter: invert(100%);">
+    </figure>
+</div>
+</script></section><section ><section data-markdown><script type="text/template">
+# Molecules in space
+
+<div>
+    <div>
+        <p>Molecules as <span class="pop-text">windows</span> into astrophysical environments</p>
+    </div>
+    <div style="display: grid; grid-template-columns: 1fr 1fr 1fr; width: 70%; align-items: center" class="fragment" data-fragment-index="1">
+        <figure>
+            <img src="figures/pyridine.png">
+            <figcaption>Prebiotic chemistry</figcaption>
+        </figure>
+        <figure>
+            <img src="figures/dustimage.jpg">
+            <figcaption>Interstellar matter</figcaption>
+        </figure>
+        <figure style="width: 100%">
+            <img src="https://public.nrao.edu/wp-content/uploads/2009/02/imagessquared2009gbtmoleculestitles09_squared.jpg">
+            <figcaption>Material at scale</figcaption>
+        </figure>
+    </div>
+</div>
+
+<footer class="fragment" data-fragment-index="1">Credit: Bill Saxton (NRAO)</footer>
+</script></section><section data-markdown><script type="text/template">
+# How are molecules found?
+
+<p style="margin-top: 100px">
+    Observations in the <span class="pop-text">radio band</span> have been the 
+</p>
+<p style="margin-top: -20px">
+    most productive in finding new molecules in space
+</p>
+
+<p class="fragment" data-fragment-index="1" style="margin-top: 150px"><span class="pop-text">What</span> are you looking for, and <span class="pop-text">where</span> are you looking?</p>
+
+<div style="display: grid; grid-template-columns: 0.9fr 1fr 0.9fr 1fr; align-items: center; width: 80%">
+    <p class="fragment" data-fragment-index="2">Before we can go here...</p>
+    <figure class="fragment" data-fragment-index="2"><img class="large-image" src="figures/gbt_image.jpg" alt=""></figure>
+    <p class="fragment" data-fragment-index="3">...we have to go here*</p>
+    <figure class="fragment" data-fragment-index="3"><img class="large-image"src="figures/nozzle_portrait.jpg" alt=""></figure>
+</div>
+
+<footer class="fragment">*Two hours in the library is better than six months in the lab!</footer>
+</script></section><section data-markdown><script type="text/template">
+# Laboratory astrochemistry
+
+<p>
+    <span class="pop-text">Precise</span> and <span class="pop-text">sensitive</span> laboratory experiments for <span class="pop-text">spectroscopic frequencies.</span>
+    </ul>
+</p>
+
+<div class="fragment" data-fragment-index="1">
+    <p>For <span class="pop-text">what</span> to look for:</p>
+    <p style="margin-top: -30px">Sometimes unindentified lines in surveys need identities,</p> 
+    <p style="margin-top: -30px">Sometimes driven by specific molecules searches.</p>
+</div>
+<p class="fragment" data-fragment-index="3"><i>Sometimes we want the chemistry to tell us!</i></p>
+
+<div style="display: grid; grid-template-columns: 1fr 1fr; align-items: center;">
+    <figure class="fragment" data-fragment-index="2"><img src="figures/CH+Herzberg.png" alt=""><figcaption>How it started (1941)</figcaption></figure>
+    <figure class="fragment" data-fragment-index="3"><img src="figures/complex_mixture_separation.png" alt="" style="width: 70%"><figcaption>How it's going (2020)</figcaption></figure>
+</div>
+</script></section><section data-markdown><script type="text/template">
+# Assigning Spectra
+
+<div style="display: grid; grid-template-columns: 1fr 1fr; grid-template-rows: 1fr 1fr; row-gap: 100px; margin-top: 100px">
+    <div class="fragment"><p>There are known knowns;</p> <span class="pop-text">CDMS, JPL, Literature</span> </div>
+    <div class="fragment"><p>There are known unknowns;</p> <span class="pop-text">Elusive radicals</span></div>
+    <div class="fragment"><p>There are unknown knowns;</p> <span class="pop-text">Accidentally rediscovering molecules</span></div>
+    <div class="fragment"><p style="color: #eb7f86">...and there are unknown unknowns:</p> <span class="pop-text">Molecules you never knew you needed</span></div>
+</div>
+</script></section><section data-markdown><script type="text/template">
+# Finding unknown unknowns
+
+<div style="display: grid; grid-template-columns: 1fr 1fr">
+    <div style="padding-top: 150px">
+        <p><span class="pop-text">Unbiased</span> spectral line surveys at the CfA:</p>
+        <p>Electrical discharge of stable precursors with <span class="pop-text">broadband</span> (2–26 GHz) and <span class="pop-text">cavity</span> (5–40 GHz) detection schemes</p>
+        <p class="fragment"><i>Bandwidth, sensitivity, and automation</i></p>
+    </div>
+    <div>
+        <figure><img src="figures/NewSchemmatic_plain.svg" alt=""></figure>
+    </div>
+</div>
+</script></section><section data-markdown><script type="text/template">
+# Discharging benzene
+
+<div style="display: grid; grid-template-columns: 1fr 0.5fr">
+    <div>
+        <p>Complimentary to the <span class="pop-text">GOTHAM</span> large survey of TMC-1</p>
+        <div class="fragment" style="margin-top: 100px">
+            <p>A simple experiment—</p>
+            <p><span class="pop-text">discharge benzene</span> and analyze its products.</p>
+        </div>
+        <p class="fragment" style="margin-top: 100px">A true <i>unknown</i> complex mixture!</p>
+    </div>
+    <div>
+        <figure><img src="figures/Benzonitrile.png" style="width: 60%" alt=""><figcaption>Nutty cousin of benzene</figcaption></figure>
+    </div>
+</div>
+</script></section><section data-markdown><script type="text/template">
+# Discharging benzene
+
+<div>
+    <div>
+        <figure style="display: block; align-items: center">
+            <img src="figures/static-fullplot.svg" alt="" style="width: 1200px">
+            <figcaption>Discharge of benzene, overnight acquisition. 482 features with SNR > 5. Oil on canvas.</figcaption>
+        </figure>
+    </div>
+</div>
+</script></section></section><section ><section data-markdown><script type="text/template"><!-- .slide: data-auto-animate -->
+
+# PySpecTools
+
+Open-source Python 3 package for spectroscopic analysis and assignment
+
+<ul>
+</ul>
+</script></section><section data-markdown><script type="text/template"><!-- .slide: data-auto-animate -->
+
+# PySpecTools
+
+Open-source Python 3 package for spectroscopic analysis and assignment
+
+<ul>
+    <li><span class="pop-text">Object-oriented</span>—natural syntax for programmers and scientists</li>
+</ul>
+</script></section><section data-markdown><script type="text/template"><!-- .slide: data-auto-animate -->
+
+# PySpecTools
+
+Open-source Python 3 package for spectroscopic analysis and assignment
+
+<ul>
+    <li><span class="pop-text">Object-oriented</span>—natural syntax for programmers and scientists</li>
+    <li><span class="pop-text">Automated</span>—as much interaction as needed</li>
+</ul></script></section><section data-markdown><script type="text/template"><!-- .slide: data-auto-animate -->
+
+# PySpecTools
+
+Open-source Python 3 package for spectroscopic analysis and assignment
+
+<ul>
+    <li><span class="pop-text">Object-oriented</span>—natural syntax for programmers and scientists</li>
+    <li><span class="pop-text">Automated</span>—as much interaction as needed</li>
+    <li><span class="pop-text">Reproducible</span>—sharing is caring</li>
+</ul>
+
+<p><i>Contributions wanted!</i></p>
+</script></section><section data-markdown><script type="text/template">
+# The known known's
+
+<div style="display: grid; grid-template-columns: 1fr 1fr">
+    <div style="padding-top: 150px">
+        <ol>
+            <li>Access <span class="pop-text">Splatalogue</span> through astropy/PySpecTools</li>
+            <li>Drop SPCAT, LIN, CSV files into prefab folder structure</li>
+            <li>Routines to pre-process spectra and "clean" assignments</li>
+        </ol>
+    </div>
+    <div>
+        <figure><img src="figures/static-fullplot.svg" alt=""></figure>
+    </div>
+</div>
+</script></section><section data-markdown><script type="text/template">
+<div>
+    <div>
+        <figure><img src="figures/cdms-cleaned.svg" alt="" style="width: 1500px"><figcaption>49 lines assigned with CDMS/JPL (Splatalogue)</figcaption> </figure>
+    </div>
+</div>
+</script></section><section data-markdown><script type="text/template">
+<div>
+    <div>
+        <figure><img src="figures/lit-cleaned.svg" alt="" style="width: 1500px"><figcaption>97 lines assigned with literature molecules</figcaption> </figure>
+    </div>
+</div>
+</script></section><section data-markdown><script type="text/template">
+# The Unknown Unknown's
+
+All that remains in our spectrum at molecules that are not yet known*
+
+<div style="display: grid; grid-template-columns: 1fr 1fr">
+    <div>
+        <figure><img src="figures/NewSchemmatic_plain.svg" alt=""></figure>
+        <p>Crabtree <i>et al.</i> and Martin-Drumel <i>et al.</i>; <span class="pop-text">AMDOR</span> and <span class="pop-text">MST</span></p>
+    </div>
+    <div class="fragment">
+        <figure><img src="figures/dr_slide3.png" alt=""><figcaption>Exhaustive, pairwise double resonance testing.</figcaption> </figure>
+    </div>
+</div>
+</script></section><section data-markdown><script type="text/template">
+# The Unknown Unknown's
+
+<div style="display: grid; grid-template-columns: 0.7fr 1fr">
+    <div>
+        <p style="margin-top: 200px">
+            Transitions with common energy levels are <span class="pop-text">interrupted</span> by double resonance.
+        </p>
+        <p class="fragment">
+            Fit, test, repeat, sleep.
+        </p>
+    </div>
+    <div>
+        <figure><img src="figures/dr_demonstration.png" alt=""></figure></div>
+</div>
+</script></section><section data-markdown><script type="text/template">
+<div>
+    <div>
+        <figure><img src="figures/latest-cleaned.svg" alt="" style="width: 1500px"><figcaption>57 lines remain, with an average SNR of ~7</figcaption> </figure>
+    </div>
+</div>
+</script></section><section data-markdown><script type="text/template">
+<embed type="text/html" src="figures/5000-summary.html" style="width: 90%" height=800>
+</script></section><section data-markdown><script type="text/template">
+# The Known Unknown's
+
+<div style="display: grid; grid-template-columns: 0.6fr 1fr">
+    <div style="padding-top: 150px">
+        <p>Now we have a list of rotational constants, but <span class="pop-text">what</span> are they?</p>
+        <p class="fragment" data-fragment-index="1">We have to map rotational constants to <span class="pop-text">molecular structures</span>—$A(BC) \propto 1 / \bf{I}$</p>
+        <p class="fragment" data-fragment-index="2">Systematic quantum chemical calculations of structures as a <span class="pop-text">dictionary</span> for mapping.</p>
+    </div>
+    <div>
+        <figure class="fragment" data-fragment-index="2"><img src="figures/NeuMoleculesFigure.png" alt=""></figure>
+    </div>
+</div>
+</script></section><section data-markdown><script type="text/template">
+<div style="display: grid; grid-template-columns: 0.5fr 1fr 0.5fr 1fr">
+    <div class="fragment" data-fragment-index="1">
+        <p>Nine new pure hydrocarbons, and development of PySpecTools.</p>
+    </div>
+    <div class="fragment" data-fragment-index="1">
+        <figure><img src="figures/jpcl_toc_text.png" alt="" style="width: 60%"><figcaption>Lee & McCarthy <i>JPCL</i> 2019</figcaption></figure>
+        <small>DOI: 10.1021/acs.jpclett.9b00586</small>
+    </div>
+    <div class="fragment" data-fragment-index="2">
+        <p>What electronic structure method to use for rotational constants?</p>
+    </div>
+    <div class="fragment" data-fragment-index="2">
+        <figure><img src="figures/bayesian-toc.png" alt="" style="width: 60%"><figcaption>Lee & McCarthy <i>JPCA</i> 2020</figcaption></figure>
+        <small>DOI: 10.1021/acs.jpca.9b09982</small>
+    </div>
+    <div class="fragment" data-fragment-index="3">
+        <p style="padding-top: 50px">
+            Extension to benzene + N$_2$ and O$_2$ mixtures. <span class="pop-text">50 new/revised molecules!</span>
+        </p>
+    </div>
+    <div class="fragment" data-fragment-index="3">
+        <figure><img src="figures/benzenemixture_toc.png" alt="" style="width: 60%"><figcaption>McCarthy <i>et al.</i> <i>JPCA</i> 2020</figcaption></figure>
+        <small>DOI: 10.1021/acs.jpca.0c02919</small>
+    </div>
+    <div style="padding-top: 100px">
+        <h2>The Benzene Saga</h2>
+    </div>
+</div>
+</script></section><section data-markdown><script type="text/template">
+# Astronomical Discoveries
+
+<div style="display: grid; grid-template-columns: 0.5fr 1fr">
+    <div style="padding-top: 150px">
+        <i>First five-membered ring in space</i>
+        <p>McCarthy <i>et al.</i> <i>Nat. Astro.</i> 2020</p>
+        <p>Lee <i>et al.</i> under review 2021</p>
+    </div>
+    <div>
+        <figure><img src="figures/12-cyanoCPD.png" alt=""><figcaption>Rediscovered and refined in Benzene + N$_2$</figcaption></figure>
+    </div>
+</div></script></section></section><section ><section data-markdown><script type="text/template">
+# The Saga Continues
+
+<div style="display: grid; grid-template-columns: 1fr 1fr; align-items: center;">
+    <figure><img src="figures/CH+Herzberg.png" alt=""><figcaption>How it started (1941)</figcaption></figure>
+    <figure><img src="figures/complex_mixture_separation.png" alt="" style="width: 70%"><figcaption>How it's going (2020)</figcaption></figure>
+</div>
+
+<p>Automation makes finding <span style="color: #eb7f86">unknown unknown's</span> <span class="pop-text">known</span>, quicker!</p>
+</script></section><section data-markdown><script type="text/template">
+# The Saga Continues
+
+<div style="display: grid; grid-template-columns: 0.6fr 1fr;">
+    <div style="padding-top: 150px">
+        <p>Finding faster ways of mapping spectroscopic constants to structures.</p>
+        <p><span class="pop-text">Deep learning</span> as a promising alternative to databases.</p>
+    </div>
+    <div>
+        <figure><img src="https://pubs.acs.org/na101/home/literatum/publisher/achs/journals/content/jpcafh/2020/jpcafh.2020.124.issue-15/acs.jpca.0c01376/20200410/images/medium/jp0c01376_0014.gif" alt="" style="width: 70%">
+            <figcaption>McCarthy & Lee <i>JPCA</i> 2020</figcaption>
+            <small>DOI: 10.1021/acs.jpca.0c01376</small>
+        </figure>
+    </div>
+</div>
+</script></section></section><section ><section data-markdown><script type="text/template">
+# Acknowledgements
+
+<div style="display: grid; grid-template-columns: 1fr 1fr; width: 80%; align-content: center;">
+    <div>
+        <figure><img src="figures/mit-logo.png" alt=""></figure>
+    </div>
+    <div>
+        <figure><img src="figures/cfa-logo-transparent.png" alt=""></figure>
+    </div>
+    <div>
+        <figure><img src="figures/nsf.png" alt="" style="width: 50%"></figure>
+    </div>
+    <div>
+        <figure><img src="figures/nasa.png" alt="" style="width: 55%"></figure>
+    </div>
+</div>
+</script></section><section data-markdown><script type="text/template"><!-- .slide: data-auto-animate -->
+
+# Acknowledgements
+
+<div style="display: grid; grid-template-columns: 1fr 1fr; width: 90vw; height: 70vh">
+    <div>
+        <figure><img src="figures/group2018.jpg" alt=""></figure>
+    </div>
+    <div>
+        <figure><img src="figures/gotham_2019_photo.jpg" alt=""></figure>
+    </div>
+</div>
+</script></section><section data-markdown><script type="text/template"><!-- .slide: data-auto-animate -->
+
+# Acknowledgements
+
+<div style="display: grid; grid-template-columns: 1fr 1fr; width: 90vw; height: 70vh">
+    <div>
+        <figure><img src="figures/isms_2019.jpg" alt=""></figure>
+    </div>
+    <div>
+        <figure><img src="figures/gotham_2019_photo.jpg" alt=""></figure>
+    </div>
+</div>
+</script></section></section><section  data-markdown><script type="text/template">
+<div class="grid sidebar">
+    <h1> Thank you! </h1>
+</div>
+
+<div style="display: grid; grid-template-columns: 1fr 1fr 1fr; padding-top: 200px; padding-left: 100px;">
+    <div class="img-frame">
+        <img src="figures/twitter.png" class="end-icons">
+        <span>@cmmmsubmm</span>
+    </div>
+    <div class="img-frame">
+        <img src="figures/www.png" class="end-icons">
+        <span>laserkelvin.github.io</span>
+    </div>
+    <div class="img-frame">
+      <img src="figures/Octocat.png" class="end-icons">
+      <span>@laserkelvin</span>
+    </div>
+</div>
+
+<footer>
+
+Copyright © 2021 Kelvin Lee
+
+</footer>
+</script></section></div>
+    </div>
+
+    <script src="./dist/reveal.js"></script>
+
+    <script src="./plugin/markdown/markdown.js"></script>
+    <script src="./plugin/highlight/highlight.js"></script>
+    <script src="./plugin/zoom/zoom.js"></script>
+    <script src="./plugin/notes/notes.js"></script>
+    <script src="./plugin/math/math.js"></script>
+    <script>
+      function extend() {
+        var target = {};
+        for (var i = 0; i < arguments.length; i++) {
+          var source = arguments[i];
+          for (var key in source) {
+            if (source.hasOwnProperty(key)) {
+              target[key] = source[key];
+            }
+          }
+        }
+        return target;
+      }
+
+      // default options to init reveal.js
+      var defaultOptions = {
+        controls: true,
+        progress: true,
+        history: true,
+        center: true,
+        transition: 'default', // none/fade/slide/convex/concave/zoom
+        plugins: [
+          RevealMarkdown,
+          RevealHighlight,
+          RevealZoom,
+          RevealNotes,
+          RevealMath
+        ]
+      };
+
+      // options from URL query string
+      var queryOptions = Reveal().getQueryHash() || {};
+
+      var options = extend(defaultOptions, {"transition":"fade","transition-speed":"fast","width":"100%","height":"100%","center":false,"margin":0,"minScale":1,"maxScale":1,"symbolperslideprogress":{"position":"left","align":"vertical","symbolColor":"","symbolActiveColor":""},"menu":{"side":"left","width":"normal"}}, queryOptions);
+    </script>
+
+
+    <script>
+      Reveal.initialize(options);
+    </script>
+  </body>
+</html>

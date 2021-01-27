@@ -1,0 +1,195 @@
+
+@import url('https://fonts.googleapis.com/css?family=Work+Sans|Roboto&display=swap');
+
+.reveal {
+    max-width: 99%;
+}
+
+.section {
+    max-width: 95%;
+    max-height: 95%;
+}
+
+html {
+    font-family: "Work Sans", "Roboto", "Helvetica";
+    font-size: 1.5vw;
+    text-rendering: optimizeLegibility;
+    text-align: left;
+    word-wrap: break-word;
+}
+
+h1, h2 {
+    font-size: 2.2em;
+    font-variant: small-caps;
+    max-width: 70%;
+}
+
+h1 {
+    text-transform: capitalize;
+}
+
+h1::after {
+    content: "";
+    border-bottom: 5px solid black;
+    /* width: 50%; */
+    display: inline-block;
+    padding-top: 10px;
+    margin-bottom: 50px;
+}
+
+h2 {
+    font-size: 1.8em;
+}
+
+h3 {
+    font-size: 1.6em;
+}
+
+p {
+    font-size: 1.2em;
+}
+
+.end-icons {
+    max-width: 100px !important;
+    height: 100px !important
+}
+
+.reveal .slides {
+    margin-right: 50px;
+    margin-left: 50px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.l-multiple {
+    display: flex;
+    justify-content: space-around;
+    max-width: 90%;
+}
+
+.reveal section,
+.reveal ol,
+.reveal dl,
+.reveal ul {
+  display: block;
+  text-align: left;
+  margin: 0 0 0 1em; 
+}
+
+.reveal li {
+    padding-top: 24px;
+}
+
+.reveal section hr {
+    max-width: 60%;
+    margin: 0;
+}
+
+.hljs {
+    max-width: 60%;
+    margin: 0 auto;
+}
+
+footer p {
+    position: relative;
+    bottom: 0%;
+    left: 0%;
+    font-size: 0.7em;
+    padding-top: 20vw;
+}
+
+/* @media screen and (min-width: 320px) {
+    html {
+      font-size: calc(16px + 6 * ((100vw - 320px) / 680));
+    }
+  }
+
+@media screen and (min-width: 1000px) {
+html {
+    font-size: 22px;
+}
+} */
+
+.cfa-logo {
+    margin-left: 30vw;
+    padding-top: 5vw;
+}
+
+#left {
+	margin: 0 auto;
+	text-align: left;
+	float: left;
+    z-index:-10;
+    min-width: 40%;
+    max-width: 48%;
+    padding: 5px;
+}
+
+#right {
+	margin: 0 auto;
+	float: left;
+	text-align: left;
+    z-index:-10;
+    min-width: 42%;
+    max-width: 48%;
+    padding: 5px;
+}
+
+.reveal img {
+    width: 40vw;
+    max-width: 90%;
+    height: auto;
+}
+
+/* 
+.slides {
+    overflow: scroll !important;
+    pointer-events: auto !important;
+} */
+
+.column {
+    float: left;
+    width: 33%;
+    align-content: center;
+}
+
+figcaption {
+    margin-bottom: 0.3em;
+}
+
+/* Neomorphism for visually popping something */
+
+.pop {
+    align-items: center;
+    box-shadow: 
+      12px 12px 16px 0 rgba(0, 0, 0, 0.25),
+      -8px -8px 12px 0 rgba(255, 255, 255, 0.2);
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    margin-right: 4rem;
+    padding: 1.1rem;
+    font-style: italic;
+  }
+
+.pop-text {
+    color: #3a5ca7
+}
+
+.wrapper {
+    min-height: 100%;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+}
+
+.large-image {
+    border-radius: 50%;
+}
+
+.reveal .slides section .fragment.fade-down {
+    opacity: 0.5;
+    visibility: visible;
+}
